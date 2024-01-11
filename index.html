@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img class="img-sorteador" src="./Assets/sort 1.png" alt="imagem sorteador">
+
+    <h2>Sortear um número</h2>
+
+    <div>
+        <input placeholder="entre" class="input-min" type="number">
+        <input placeholder="até" class="input-max" type="number">
+    </div>
+
+    <buttom class="buttom-sortear" onclick="generateNumber()">Sortear</buttom>
+
+    <h3>Número sorteado:</h3>
+    <input class="num-result" placeholder="número sorteado" type="number">
+
+</body>
+
+</html>
